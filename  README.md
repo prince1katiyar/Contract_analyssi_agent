@@ -8,11 +8,11 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            line-height: 1.6;
             margin: 0;
             padding: 0;
             background-color: #f4f4f4;
             color: #333;
+            line-height: 1.6;
         }
 
         header {
@@ -26,7 +26,7 @@
             padding: 2rem;
         }
 
-        h1, h2 {
+        h1, h2, h3 {
             color: #333;
         }
 
@@ -41,6 +41,7 @@
 
         ul {
             list-style-type: none;
+            padding-left: 0;
         }
 
         li {
@@ -56,10 +57,11 @@
 
         a {
             color: #007bff;
+            text-decoration: none;
         }
 
         a:hover {
-            text-decoration: none;
+            text-decoration: underline;
         }
     </style>
 </head>
